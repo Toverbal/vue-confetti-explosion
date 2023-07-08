@@ -7,7 +7,7 @@ const CRAZY_PARTICLES_FREQUENCY = 0.1; // 0-1 frequency of crazy curvy unpredict
 const CRAZY_PARTICLE_CRAZINESS = 0.3; // 0-1 how crazy these crazy particles are
 const BEZIER_MEDIAN = 0.5; // utility for mid-point bezier curves, to ensure smooth motion paths
 
-interface IConfettiProps {
+export interface IConfettiProps {
   particleCount: number,
   particleSize: number,
   duration: number,
